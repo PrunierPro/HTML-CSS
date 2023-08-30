@@ -3,8 +3,27 @@
     <head>
         <title>Contact</title>
         <meta charset="UTF-8" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            nav ul li{
+                display: inline;
+                background-color: skyblue;
+                border: solid black 1px;
+                border-radius: 15%;
+                padding: 3px;
+            }
+        </style>
     </head>
     <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="cookie.html">Accueil</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">A propos</a></li>
+                </ul>
+            </nav>
+        </header>
         <main>
             <form method="GET" action="contact.html">
                 <label for="email">Email: </label>
@@ -13,7 +32,7 @@
                 <input type="text" name="subject" id="subject" placeholder="Sujet"><br>
                 <label for="message">Message: </label>
                 <textarea name="message" id="message" placeholder="Entrez votre message"></textarea><br>
-                <button type="submit" nom="send" id="send">Envoyer</button>
+                <button type="submit" nom="send" id="send" class="btn btn-primary">Envoyer</button>
             </form>
         </main>
     </body>
