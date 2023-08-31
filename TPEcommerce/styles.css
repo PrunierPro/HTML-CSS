@@ -1,0 +1,87 @@
+.tape{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -10vh;
+    width: 50%;
+}
+
+html, main{
+    background-color: khaki;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+    width: 20%;
+    align-self:center;
+}
+
+.navbar{
+    background-image:linear-gradient(45deg, goldenrod, grey, goldenrod, grey, goldenrod, grey, goldenrod, grey, goldenrod);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.navbar a{
+    color: white;
+}
+
+.flip .tape{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transform: rotateX(180deg);
+}
+
+h1, p{
+    padding-top: 10vh;
+    text-align: center;
+}
+
+p{
+    font-size: x-large;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product{
+    margin:5%;
+}
+
+.product img{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 20vw;
+    height: 35vh;
+}
+
+.product p{
+    text-align: center;
+    font-size: 2em;
+    background-color: aliceblue;
+    padding-bottom:15%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form textarea{
+    width: 20vw;
+    height: 20vh;
+}
