@@ -59,6 +59,32 @@ p{
     margin:5%;
 }
 
+.product-details{
+    display:flex;
+    flex-direction: row;
+}
+
+.product-details .product{
+    width:40%;
+}
+
+.product-details .product img{
+    width: 35vw;
+}
+
+.details{
+    background-color: aliceblue;
+    border-radius: 5%;
+    margin-top: 2%;
+    padding: 0;
+}
+
+.details p{
+    text-align: left;
+    margin-left: 3%;
+    margin-top:13%;
+}
+
 .product img{
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
@@ -84,4 +110,12 @@ form{
 form textarea{
     width: 20vw;
     height: 20vh;
+}
+
+.elgato-bg{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bc33b046-d405-42c8-bade-99321524eb9e/dfyovfi-75d49866-04bc-46c3-82c6-d177cfb7b693.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JjMzNiMDQ2LWQ0MDUtNDJjOC1iYWRlLTk5MzIxNTI0ZWI5ZVwvZGZ5b3ZmaS03NWQ0OTg2Ni0wNGJjLTQ2YzMtODJjNi1kMTc3Y2ZiN2I2OTMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.HfOXbCloo0xbDY7SkBIj96zU5aTFc8dbsya4YzVW-tg");
+    background-size:auto;
+    cursor:pointer;
+    width:100%;
+    height:100%;
 }
